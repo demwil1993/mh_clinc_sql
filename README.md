@@ -3,11 +3,11 @@
 
 The <strong>Wrangler</strong> class is a custom extension of the <strong>pd.DataFrame</strong> class with additional functionalities for data preprocessing and analysis.
 
-  <details><summary><strong>Class Attributes</strong></summary>
+<details><summary><strong>Class Attributes</strong></summary>
 
-- `_metadata`: List of metadata attributes preserved in the class.
+- <strong>_metadata</atrong>: List of metadata attributes preserved in the class.
 
-- **`_constructor`**
+- <strong>_constructor</strong>
 
   - Description: This property returns a constructor for the class. The constructor is a function that can create a new instance of the class.
 
