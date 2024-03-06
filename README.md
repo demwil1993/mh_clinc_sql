@@ -1,11 +1,37 @@
+details {
+  font:
+    16px "Open Sans",
+    Calibri,
+    sans-serif;
+  width: 620px;
+}
+
+details > summary {
+  padding: 2px 6px;
+  width: 15em;
+  background-color: #ddd;
+  border: none;
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+  list-style: none;
+}
+
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #ddd;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+
 <details>
 <summary>Wrangler Class Documentation</summary>
 
-The `Wrangler` class is a custom extension of the `pd.DataFrame` class with additional functionalities for data preprocessing and analysis.
+<p>The `Wrangler` class is a custom extension of the `pd.DataFrame` class with additional functionalities for data preprocessing and analysis. </p> 
 
 <details><summary>## Inheritance</summary>
 
-The `Wrangler` class inherits from the `pd.DataFrame` class and extends its functionalities with custom methods and attributes.
+<p>The `Wrangler` class inherits from the `pd.DataFrame` class and extends its functionalities with custom methods and attributes.</p>
 </details>
 ## Class Attributes
 
