@@ -1,9 +1,9 @@
 <details>
-<summary><strong><h1>Wrangler Class Documentation</h1></strong></summary>
+<h1><summary><strong>Wrangler Class Documentation</strong></summary></h1>
 
 The <strong>Wrangler</strong> class is a custom extension of the <strong>pd.DataFrame</strong> class with additional functionalities for data preprocessing and analysis.
 
-<details><summary><strong><h2>Class Attributes</h2></strong></summary>
+<h2><details><summary><strong>Class Attributes</strong></summary></h2>
 
 - <strong>_metadata</strong>: List of metadata attributes preserved in the class.
 
