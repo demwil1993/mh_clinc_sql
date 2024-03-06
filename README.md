@@ -23,7 +23,7 @@ The `Wrangler` class is a custom extension of the `pd.DataFrame` class with addi
 - **`__init__(self, *args, **kwargs)`**:
   
   - Description: Initializes the `Wrangler` object, with an optional `my_attr` attribute.
-</details>
+
 ### Data Preprocessing
 
 - **`strip_dataframe(self)`**
@@ -177,7 +177,7 @@ The `Wrangler` class is a custom extension of the `pd.DataFrame` class with addi
 
   - Parameter(s):
     - `column`: String: The name of the column for which unique values and their occurrences are counted.
-
+</details>
 </details>
 
 <details>
