@@ -1,12 +1,7 @@
 <details>
 <summary>Wrangler Class Documentation</summary>
 
-<p> The `Wrangler` class is a custom extension of the `pd.DataFrame` class with additional functionalities for data preprocessing and analysis. </p> 
-
-<details><summary>## Inheritance</summary>
-
-<p>The `Wrangler` class inherits from the `pd.DataFrame` class and extends its functionalities with custom methods and attributes.</p>
-</details>
+The `Wrangler` class is a custom extension of the `pd.DataFrame` class with additional functionalities for data preprocessing and analysis.
 
 <details><summary>## Class Attributes</summary>
 
@@ -20,14 +15,15 @@
     - Function: A constructor function.
 </details>
 
-## Methods
+<details>
+<summary>## Methods</summary>
 
 ### Initialization
 
 - **`__init__(self, *args, **kwargs)`**:
   
   - Description: Initializes the `Wrangler` object, with an optional `my_attr` attribute.
-
+</details>
 ### Data Preprocessing
 
 - **`strip_dataframe(self)`**
