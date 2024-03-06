@@ -1,7 +1,7 @@
 <details>
 <summary>Wrangler Class Documentation</summary>
 
-The `Wrangler` class is a custom extension of the `pd.DataFrame` class with additional functionalities for data preprocessing and analysis.
+The <strong>Wrangler</strong> class is a custom extension of the <strong>pd.DataFrame</strong> class with additional functionalities for data preprocessing and analysis.
 
 <details><summary><strong>Class Attributes</strong></summary>
 
