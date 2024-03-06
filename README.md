@@ -1,9 +1,9 @@
 <details>
-<summary>Wrangler Class Documentation</summary>
+<summary><strong>Wrangler Class Documentation</strong></summary>
 
 The <strong>Wrangler</strong> class is a custom extension of the <strong>pd.DataFrame</strong> class with additional functionalities for data preprocessing and analysis.
 
-<details><summary><strong>Class Attributes</strong></summary>
+  <details><summary><strong>Class Attributes</strong></summary>
 
 - `_metadata`: List of metadata attributes preserved in the class.
 
@@ -181,7 +181,7 @@ The <strong>Wrangler</strong> class is a custom extension of the <strong>pd.Data
 </details>
 
 <details>
-<summary>Graphs Class Documentation</summary>
+<summary><strong>Graphs Class Documentation</strong></summary>
 
 The `Graphs` class provides a variety of methods for visualizing data using seaborn and matplotlib libraries. This class is designed to facilitate the creation of different types of plots for exploratory data analysis.
 
