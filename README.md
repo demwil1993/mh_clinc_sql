@@ -430,7 +430,4 @@ The `Graphs` class provides a variety of methods for visualizing data using seab
     - `sub_1`: Integer: The number of rows in the subplot grid.
     - `sub_2`: Integer: The number of columns in the subplot grid.
     - `limit`: Integer or None: The number of group columns to be shown in graph (optional).
-
-...
-
 </details>
