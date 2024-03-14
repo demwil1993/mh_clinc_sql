@@ -68,12 +68,9 @@ WHERE id = '84534';
 
 SELECT * FROM psy_job_audit pja;
 
--- give every all the therapist whose last name over 7 characters a 2% decrease in pay 
-SELECT * FROM department d;
-
--- rank managers by salary. Output full name, job title, salary, and rank of salaries
-SELECT 
-	h.salary
-FROM manager m 
-INNER JOIN healthcareprovider h 
-	ON h.id = m.hcp_id;
+/* Change all the title of certified medical assistances that make less than $35000,
+ to certified nursing assistant (CNA) */
+UPDATE medicalstaff 
+SET jobtitle = 'Certified Nursing Assistant (CNA)'
+WHERE jobtitle = 'Certified Medical Assistant (CMA)'
+	AND salary <= 35000;
